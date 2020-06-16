@@ -10,6 +10,7 @@ A template for making new github actions.
 
 - TypeScript
 - JavaScript action
+- yarn
 - Webpack bundling with minimal configuration
 
 # Caveat

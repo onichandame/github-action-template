@@ -19,7 +19,7 @@
   "husky": {
     "hooks": {
       "pre-commit": "yarn format",
-      "pre-push": "yarn build"
+      "pre-push": "yarn test && yarn build"
     }
   },
   "name": "github-action",

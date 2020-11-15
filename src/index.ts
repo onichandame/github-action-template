@@ -1,1 +1,4 @@
-console.log("hi")
+import { exec } from "@actions/exec"
+;(async () => {
+  exec(`echo`, [`hi`])
+})()
